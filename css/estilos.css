@@ -111,3 +111,41 @@ header{
     color: #FFFFFF;
     text-transform: uppercase;
 }
+.galeria{
+    display: inline-block;
+    text-align: center;
+}
+#contenedor-h2{
+    width: 1320px;
+    margin: auto;
+}
+h2{
+    font-size: 3em;
+    font-family: 'Lucida Sans'
+}
+#contenedor-h2 p{
+    color: #666666;
+    font-family: 'Lucida Sans';
+    font-size: 1.3em;
+}
+#contenedor-img{
+    display:flex;
+}
+article{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 200px;
+}
+#uno{
+    flex:1;
+}
+#dos{
+    flex:1;
+}
+#tres{
+    flex:1;
+}
+footer{
+    text-align: center;
+}
+
