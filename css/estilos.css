@@ -146,6 +146,79 @@ article{
     flex:1;
 }
 footer{
+    background-color: #3C2313;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#footer-1{
+    flex: 1;
+    text-align: right;
+    margin: auto;
+}
+#footer-2{
+    flex: 1;
+    margin: auto;
+}
+#logo-footer{
+    flex: 4;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+    margin: auto;
+    margin-right: 100px;
+}
+#footer-3{
+    flex: 6 1900px;
+    height: 2em;
+    line-height: 2em;
+    font-size: 0.9rem;
+    background-color: #222222;
     text-align: center;
 }
+#footer-1 ul{
+    list-style: none;
+    margin: 1em;
+}
+#footer-1 ul li i{
+    width: 90px;
+    height: 90px;
+    line-height: 76px;
+    background-color: #8A8787;
+    border: 6px solid #786960;
+    border-radius: 50%;
+    text-align: center;
+    margin: 1.4rem;
+}
+i{
+    font-size: 50px;
+}
+#footer-2 h2{
+    font-size: 1.3em;
+}
+#footer-2 p{
+    font-size: 1em;
+    color: #8A8787;
+    font-weight: bold;
+}
+#footer-2 div{
+    margin: 5.5rem 0 5.5rem 0;
+}
+
+#logo-footer a{
+    text-decoration: none;
+}
+#logo-footer a span{
+    color: white;
+}
+#logo-footer a .estilo-footerB{
+    color:#F0A83E;
+}
+
+
+
 
